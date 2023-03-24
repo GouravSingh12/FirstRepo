@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel = "tests" name="Suite">
+ 
+  <test thread-count="5" name="Error Validation Test">
+    <classes>
+      <class name="com.wipro.ErrorValidation"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="StandAlone Test">
+    <classes>
+      <class name="com.wipro.StandAloneTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Submit order Test">
+    <classes>
+      <class name="com.wipro.SubmitOrderTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
